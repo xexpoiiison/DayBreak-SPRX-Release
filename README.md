@@ -1,7 +1,11 @@
-# DayBreak V1.1.1 – BO3 Zombies SPRX (PS4 / PS5)
+# DayBreak V1.1.2 – BO3 Zombies SPRX (PS4 / PS5)
 
 **Game:** Black Ops III – CUSA02290 (V1.33)
 **Needs:** GoldHEN (PS4) or NexHEN (PS5)
+
+## Fixed in V1.1.2
+- **Set Round now sticks.** Picking a round jumped to current+1 instead (round 2 → 3). It now sets BO3's real round counter, so it lands on the round you pick.
+- **Pack-a-Punch Current Weapon** now works on guns the map's upgrade table misses, like the **Razorback**.
 
 ## Fixed in V1.1.1
 - **PS5 / NexHEN autoload:** DayBreak didn't show up when set to `?autoload=true` in NexHEN (no load box, no menu), but worked when loaded from the Plugin Loader at the main menu. NexHEN autoload injects the moment the game starts, before BO3 is ready, and DayBreak gave up. It now waits for the main menu and hooks in then, the same as the Plugin Loader. It also keeps retrying its startup and controller hook instead of giving up, and shows the load box within 20 seconds on the main menu even if the X on "Press X to start" was missed.
