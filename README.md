@@ -6,10 +6,10 @@
 ## Install
 1. Download `DayBreak.sprx`
 2. With FTP, copy it to:
-   `/data/GoldHEN/plugins/DayBreak.prx`
+   `/data/GoldHEN/plugins/DayBreak.sprx`
 3. Open `/data/GoldHEN/plugins.ini` (create it if it isn't there) and add:
    [CUSA02290]
-   /data/GoldHEN/plugins/DayBreak.prx
+   /data/GoldHEN/plugins/DayBreak.sprx
 4. Restart BO3.
 
 ## Use
