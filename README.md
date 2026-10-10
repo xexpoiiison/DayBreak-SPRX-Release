@@ -1,6 +1,6 @@
 # DayBreak V1.1 – BO3 Zombies SPRX (PS4)
 
-**Game:** Black Ops III – V1.33
+**Game:** Black Ops III – CUSA02290 (V1.33)
 **Needs:** GoldHEN (or NexHEN)
 
 ## Install
@@ -8,8 +8,10 @@
 2. With FTP, copy it to:
    `/data/GoldHEN/plugins/DayBreak.sprx`
 3. Open `/data/GoldHEN/plugins.ini` (create it if it isn't there) and add:
+   ```ini
    [CUSA02290]
    /data/GoldHEN/plugins/DayBreak.sprx
+   ```
 4. Restart BO3.
 
 ## Use
@@ -22,7 +24,7 @@
 - **Stats for all modes** (Multiplayer, Campaign and Zombies), done right in the SPRX, no GSC injection: level, prestige, unlocks, liquid divinium, clan tag and more.
 
 ## Problems
-- Nothing shows up: check the path and `plugins.ini`, and make sure your game is on the latest patch.
+- Nothing shows up: check the path and `plugins.ini`, and make sure your game is CUSA02290 on the latest patch.
 - Questions: Discord / X **@xexpoiiison**
 
 Created By: XeX Poiiison
